@@ -1,4 +1,5 @@
 # BuildStatus
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9db5a59ea21845958b6e66a396186e08)](https://app.codacy.com/app/oliverwreath/AngularRouting?utm_source=github.com&utm_medium=referral&utm_content=oliverwreath/AngularRouting&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.org/oliverwreath/AngularRouting.svg?branch=master)](https://travis-ci.org/oliverwreath/AngularRouting)
 
 # AngularRouting
