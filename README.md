@@ -1,7 +1,7 @@
 # BuildStatus
 [![Build Status](https://travis-ci.org/oliverwreath/AngularRouting.svg?branch=master)](https://travis-ci.org/oliverwreath/AngularRouting)
 
-# MyTodoList
+# AngularRouting
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
 

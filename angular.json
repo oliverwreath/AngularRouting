@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "MyTodoList": {
+    "AngularRouting": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/MyTodoList",
+            "outputPath": "dist/AngularRouting",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -58,18 +58,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "MyTodoList:build"
+            "browserTarget": "AngularRouting:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "MyTodoList:build:production"
+              "browserTarget": "AngularRouting:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "MyTodoList:build"
+            "browserTarget": "AngularRouting:build"
           }
         },
         "test": {
@@ -103,7 +103,7 @@
         }
       }
     },
-    "MyTodoList-e2e": {
+    "AngularRouting-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -112,11 +112,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "MyTodoList:serve"
+            "devServerTarget": "AngularRouting:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "MyTodoList:serve:production"
+              "devServerTarget": "AngularRouting:serve:production"
             }
           }
         },
@@ -132,5 +132,5 @@
       }
     }
   },
-  "defaultProject": "MyTodoList"
+  "defaultProject": "AngularRouting"
 }
